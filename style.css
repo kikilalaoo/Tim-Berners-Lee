@@ -21,6 +21,7 @@ background: linear-gradient(#60ebeb 0%, #27ae60 100%);
     display:table;
     width:100%;
     height:100%;
+    z-index: 11;
 }
 h1{
     font-size: 40px;
@@ -36,7 +37,7 @@ h2{
 }
 #name{
     font-size: 40px;
-    font-family: cursive;
+    font-family:'Cinzel Decorative',cursive;
     line-height: 1.2;
 }
 #bio{
@@ -65,4 +66,28 @@ height: 6px;
     width: 70px; 
     margin: 8px auto;
 
+}
+
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top:10px;
+    right: 30px;
+    z-index: 12;
+    cursor: pointer;
+}
+.links{
+    float: left;
+    color: #FFF;
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+    }
+.links:hover{
+   background-color: deeppink; 
+    
 }
